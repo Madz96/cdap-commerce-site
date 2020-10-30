@@ -8,9 +8,9 @@ html {
 }
 
 #nav-bar {
-	position: fixed;
-    z-index: 10;
-    width: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 10;
 }
 
 .navbar {
