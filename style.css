@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar {
+	background-image: linear-gradient(to right, #021b79, #245caa, #3a7bd5);
+	padding: 0 !important;
+}
+
+.navbar-brand img {
+	height: 40px;
+	padding-left: 20px;
+}
+
+.navbar-nav li {
+	padding: 0 15px;
+}
+
+.navbar-nav li a {
+	color: #fff !important;
+	font-weight: 600;
+}
+
+.fa-bars {
+	color: #fff;
+	font-size: 25px !important;
+}
+
+.navbar-toggler {
+	border: none !important;
+}
+
+.card {
+    background-color: rgb(255, 255, 255, 0.65) !important;
+}
+
+/* Home section styling */
+#home {
+	padding-top: 0%;
+	background-image: url("assets/images/wave.png"), linear-gradient(to right, #021b79, #245caa, #3a7bd5);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+#slogan {
+	padding: 50px;
+}
+
+#slogan-img {
+	width: auto;
+	height: 250px;
+	padding-top: 2%;
+}
+
+#intro {
+	padding-top: 2%;
+}
+
+#intro-content {
+    color: #000;
+	padding: 40px;
+	border: solid #fff 1px;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255, 0.65);
+}
+
+.title {
+    padding-bottom: 20px;
+    color: #495464;
+}
+.title::before {
+    content: '';
+    background: #495464;
+    height: 2px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(60px);
+}
+
+/* Domain section styling */
+#domain {
+    padding-top: 5%;
+    background-image: linear-gradient(to right, #298FCE, #2E97D6);
+}
+
+.dom-cont {
+    color: #000;
+	padding: 40px;
+	border: solid #fff 1px;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255, 0.65);
+}
+
+#lit-survey {
+    padding-top: 2%;
+}
+
+#res-gap {
+    padding-top: 2%;
+}
+
+#res-obj {
+    padding-top: 2%;
+}
