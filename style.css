@@ -42,7 +42,7 @@ html {
 }
 
 .card {
-    background-color: rgb(255, 255, 255, 0.65) !important;
+	background-color: rgb(255, 255, 255, 0.65) !important;
 }
 
 /* Home section styling */
@@ -69,50 +69,84 @@ html {
 }
 
 #intro-content {
-    color: #000;
+	color: #000;
 	padding: 40px;
 	border: solid #fff 1px;
 	border-radius: 5px;
-	background-color: rgb(255, 255, 255, 0.65);
+	background-color: rgb(255, 255, 255, 0.45);
 }
 
 .title {
-    padding-bottom: 20px;
-    color: #495464;
+	padding-bottom: 20px;
+	color: #495464;
 }
 .title::before {
-    content: '';
-    background: #495464;
-    height: 2px;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    transform: translateY(60px);
+	content: '';
+	background: #495464;
+	height: 2px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(60px);
 }
 
 /* Domain section styling */
 #domain {
-    padding-top: 5%;
-    background-image: linear-gradient(to right, #298FCE, #2E97D6);
+	padding-top: 5%;
+	background-image: linear-gradient(to right, #298fce, #2e97d6);
 }
 
 .dom-cont {
-    color: #000;
+	color: #000;
 	padding: 40px;
 	border: solid #fff 1px;
 	border-radius: 5px;
-	background-color: rgb(255, 255, 255, 0.65);
+	background-color: rgb(255, 255, 255, 0.45);
 }
 
 #lit-survey {
-    padding-top: 2%;
+	padding-top: 2%;
 }
 
 #res-gap {
-    padding-top: 2%;
+	padding-top: 2%;
 }
 
 #res-obj {
-    padding-top: 2%;
+	padding-top: 2%;
+}
+
+#meth {
+	padding-top: 2%;
+}
+
+#tech {
+	padding-top: 2%;
+}
+
+.tech-img {
+	width: 75px;
+	height: auto;
+}
+
+/* Domain section styling */
+#milestones {
+	padding-top: 5%;
+	background-image: linear-gradient(to right, #298fce, #2e97d6);
+}
+
+.mil-cont {
+	color: #000;
+	padding: 40px;
+	border: solid #fff 1px;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255, 0.45);
+}
+
+.vertical-line{
+    display: inline-block;
+    border-left: 5px solid #fff;
+    margin: 0 10px;
+    height: 75px;
 }
