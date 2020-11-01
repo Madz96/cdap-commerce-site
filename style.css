@@ -114,20 +114,36 @@ html {
 	margin-right: auto;
 }
 
-#lit-survey {
-	padding-top: 2%;
-}
-
 #res-gap {
 	padding-top: 2%;
 }
+
+.res-icon-cor {
+	color: green;
+} 
+
+.res-icon-wrg {
+	color: red;
+} 
 
 #res-obj {
 	padding-top: 2%;
 }
 
+.obj-list {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
 #meth {
 	padding-top: 2%;
+}
+
+.sys-diag {
+	width: auto;
+	height: 100px;
+	border-radius: 5px;
+	border: #fff solid 1px;
 }
 
 #tech {
@@ -137,6 +153,10 @@ html {
 .tech-img {
 	width: 75px;
 	height: auto;
+}
+
+.react-img {
+	transform: rotate(30deg);
 }
 
 /* Domain section styling */
