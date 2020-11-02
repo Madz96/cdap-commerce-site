@@ -120,11 +120,11 @@ html {
 
 .res-icon-cor {
 	color: green;
-} 
+}
 
 .res-icon-wrg {
 	color: red;
-} 
+}
 
 #res-obj {
 	padding-top: 2%;
@@ -173,6 +173,11 @@ html {
 	background-color: rgb(255, 255, 255, 0.45);
 }
 
+.mile {
+	border: solid #fff 1px;
+	border-radius: 5px;
+}
+
 .vertical-line {
 	display: inline-block;
 	border-left: 5px solid #fff;
@@ -192,6 +197,15 @@ html {
 	border: solid #fff 1px;
 	border-radius: 5px;
 	background-color: rgb(255, 255, 255, 0.45);
+}
+
+.down-icon {
+	font-size: 25px !important;
+	color: lightgray;
+}
+
+.down-icon:hover {
+	color: lightgreen;
 }
 
 /* About us section styling  */
