@@ -63,6 +63,7 @@ html {
 	height: 250px;
 	padding-top: 2%;
 	border-radius: 50%;
+	
 }
 
 #intro {
@@ -200,12 +201,8 @@ html {
 }
 
 .down-icon {
-	font-size: 25px !important;
-	color: lightgray;
-}
-
-.down-icon:hover {
-	color: lightgreen;
+	height: auto;
+	width: 25px;
 }
 
 /* About us section styling  */
@@ -230,8 +227,25 @@ html {
 
 .profile_img {
 	border-radius: 50%;
+	width: 225px;
+	height: 225px;
 }
 
+.email-icon {
+	height: auto;
+	width: 30px;
+}
+
+@media (max-width: 577px) { 
+	.email-add {
+		font-size: small;
+	}
+
+	.email-icon {
+		height: auto;
+		width: 20px;
+	}
+ }
 /* Footer section styling  */
 #footer {
 	background-image: linear-gradient(to right, #021b79, #245caa, #3a7bd5);
